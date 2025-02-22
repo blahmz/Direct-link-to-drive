@@ -6,10 +6,6 @@ This is an easy way to transfer files to your Google Drive.
 
 **Warning:** This method violates Google Colab's policies. Use it at your own risk.
 
-## Overview
-
-This repository provides a Jupyter Notebook (`direct_link.ipynb`) that facilitates transferring files from direct download links to Google Drive.
-
 ## Features
 
 - Works with various file types and sources.
