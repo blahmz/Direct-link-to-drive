@@ -9,12 +9,13 @@
 This notebook enables transferring files from direct download links to Google Drive.  
 
 #### Usage:  
-1. Download and upload `direct_link.ipynb` to Google Colab.  
+1. Download and upload `direct_link.ipynb` to Google Colab or copy and paste the below code.
 2. Run all cells sequentially.  
 3. Alternatively, use the following command to save a file directly to Google Drive:  
    ```bash
   from google.colab import drive
   drive.mount('/content/drive')
+
    ```bash
    !wget -P /content/drive/My\ Drive/ "paste your direct link here"
 
