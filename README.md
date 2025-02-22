@@ -1,5 +1,7 @@
 # Direct-Link-to-Drive
 
+This is an easy way to transfer files to your Google Drive.
+
 ## Disclaimer
 
 **Warning:** This method violates Google Colab's policies. Use it at your own risk.
@@ -10,11 +12,9 @@ This repository provides a Jupyter Notebook (`direct_link.ipynb`) that facilitat
 
 ## Features
 
-- Easily download files from direct URLs to Google Drive.
 - Works with various file types and sources.
-- This might be useful if you face low download speed using Colab; you can transfer files to Drive faster and download them from there.
-- Sometimes, the file will be uploaded to Drive but may not detect the file extension. Just rename it as needed (e.g., `.txt`, `.mkv`, `.mp3`) and open it.
-- Simple setup and execution.
+- This might be useful if you experience slow download speeds in your browser; using Colab, you can transfer files to Drive faster and then download them from Drive.
+- Sometimes, the file will be uploaded to Drive but may not detect the file extension. Simply rename it as needed (e.g., `.txt`, `.mkv`, `.mp3`) and open it.
 
 ## Usage
 
@@ -46,7 +46,7 @@ wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here"
 
 ### Android
 
-- Use the **1DM** app ([Download here](https://play.google.com/store/apps/details?id=idm.internet.download.manager)).
+- Use the **[1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager)** app.
 - Before adding the file for download, choose the **Copy Link** option.
 
 ## Notes
