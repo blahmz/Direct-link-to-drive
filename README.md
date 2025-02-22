@@ -38,7 +38,7 @@ You can also execute the following commands directly in a Colab notebook:
 from google.colab import drive
 drive.mount('/content/drive')
 
-!wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here"
+wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here"
 
 How to Obtain Direct Download Links
 
