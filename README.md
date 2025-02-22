@@ -12,6 +12,8 @@ This repository provides a Jupyter Notebook (`direct_link.ipynb`) that facilitat
 
 - Easily download files from direct URLs to Google Drive.
 - Works with various file types and sources.
+- This might be useful if you face low download speed using Colab; you can transfer files to Drive faster and download them from there.
+- Sometimes, the file will be uploaded to Drive but may not detect the file extension. Just rename it as needed (e.g., `.txt`, `.mkv`, `.mp3`) and open it.
 - Simple setup and execution.
 
 ## Usage
@@ -44,7 +46,7 @@ wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here"
 
 ### Android
 
-- Use the **1DM** app.
+- Use the **1DM** app ([Download here](https://play.google.com/store/apps/details?id=idm.internet.download.manager)).
 - Before adding the file for download, choose the **Copy Link** option.
 
 ## Notes
@@ -55,7 +57,3 @@ wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here"
 ## License
 
 This repository is open-source and provided for educational purposes only. The author is not responsible for any misuse.
-
-
-Your GitHub README.md file has been created. Let me know if you need any modifications!
-
