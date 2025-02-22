@@ -30,7 +30,7 @@ drive.mount('/content/drive')
 ```
 
 ```bash
-wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here"
+wget -P /content/drive/My\ Drive/ "paste_your_direct_link_here_without_quotation"
 ```
 
 ## How to Obtain Direct Download Links
